@@ -63,6 +63,10 @@ Sua doação mantém este projeto vivo e me ajuda a continuar criando e comparti
 
 - [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp).
 
+### GUIs
+
+- [SwiftGtk](https://github.com/rhx/SwiftGtk).
+
 ### Web framework
 
 - [Vapor web framework for swift](https://vapor.codes/).
