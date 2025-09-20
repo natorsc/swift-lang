@@ -89,6 +89,28 @@ Sua doação mantém este projeto vivo e me ajuda a continuar criando e comparti
 - [Vapor for VS Code](https://marketplace.visualstudio.com/items?itemName=Vapor.vapor-vscode).
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 
+## Swift SDK Bundles
+
+Additional components for cross-compilation.
+
+> Change the version according to your needs.
+
+### Linux
+
+```bash
+swift sdk install \
+https://download.swift.org/swift-6.2-release/static-sdk/swift-6.2-RELEASE/swift-6.2-RELEASE_static-linux-0.0.1.artifactbundle.tar.gz \
+--checksum d2225840e592389ca517bbf71652f7003dbf45ac35d1e57d98b9250368769378
+```
+
+### WebAssembly
+
+```bash
+swift sdk install \
+https://download.swift.org/swift-6.2-release/wasm/swift-6.2-RELEASE/swift-6.2-RELEASE_wasm.artifactbundle.tar.gz \
+--checksum fe4e8648309fce86ea522e9e0d1dc48e82df6ba6e5743dbf0c53db8429fb5224
+```
+
 ## Versões da linguagem de programação Swift
 
 | Data        | Swift  | Xcode |
