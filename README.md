@@ -91,9 +91,10 @@ Sua doação mantém este projeto vivo e me ajuda a continuar criando e comparti
 
 ## Versões da linguagem de programação Swift
 
-| Data        | Swift  | Xcode  |
+| Data        | Swift  | Xcode |
 |-------------|--------|--------|
-| Dev         | 6.2    | nil    |
+| Dev         | 6.3    | nil    |
+| 15/09/2025  | 6.2    | 26     |
 | 31/03/2025  | 6.1    | 16.3   |
 | 16/09/2024  | 6.0    | 16.0   |
 | 05/03/2024  | 5.10   | 15.3   |
