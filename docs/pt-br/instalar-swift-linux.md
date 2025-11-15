@@ -36,6 +36,25 @@ Para instalar a linguagem de programação Swift a partir do código fontes é n
 
 ### Dependências
 
+#### Arch Linux
+
+```bash
+sudo pacman -S \
+binutils \
+gcc \
+git \
+unzip \
+curl \
+libedit \
+icu \
+sqlite \
+util-linux-libs \
+libxml2 \
+python \
+python-pip \
+gcc-libs
+```
+
 #### Debian 12
 
 ```bash
@@ -98,7 +117,7 @@ zlib1g-dev
 Após a instalação da dependências realize o download do código fonte no site:
 
 - [https://www.swift.org/install/linux](https://www.swift.org/install/linux)
-    
+
 Ao finalizar o download do arquivo `*.tar.gz` descompacte o mesmo com o comando:
 
 ```bash

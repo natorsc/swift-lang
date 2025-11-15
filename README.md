@@ -55,9 +55,35 @@ Sua doação mantém este projeto vivo e me ajuda a continuar criando e comparti
 - [Como instalar o web framework Vapor](docs/pt-br/instalar-web-framework-vapor.md).
 - [Como desenvolver apps iOS no Windows e Linux com xtool](docs/pt-br/instalar-xtool.md).
 
+## Erros
+
+### Linux
+
+#### libncurses.so.6
+
+Caso seja exibido o erro: `error while loading shared libraries: libncurses.so.6: cannot open shared object file: No such file or directory`, executar:
+
+```bash
+sudo ln -sf /usr/lib/libncursesw.so /usr/lib/libncurses.so.6
+```
+
+#### libxml2.so.2
+
+Caso seja exibido o erro: `sourcekit-lsp: error while loading shared libraries: libxml2.so.2: cannot open shared object file: No such file or directory`, executar:
+
+```bash
+sudo ln -s /usr/lib/libxml2.so.16 /usr/lib/libxml2.so.2
+```
+
 ## 💡 Extra
 
 - [Swift documentation](https://www.swift.org/documentation/).
+
+### Container
+
+- [Apple container](https://github.com/apple/container).
+
+> Ferramenta de linha de comando equivalente ao Docker e o Podman. Ela é escrita em Swift e otimizada para o chip Apple Silicon.
 
 ### LSP
 
@@ -89,11 +115,15 @@ Sua doação mantém este projeto vivo e me ajuda a continuar criando e comparti
 - [Vapor for VS Code](https://marketplace.visualstudio.com/items?itemName=Vapor.vapor-vscode).
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 
+### Zed
+
+- [Swift](https://zed.dev/extensions/swift)
+
 ## Swift SDK Bundles
 
-Additional components for cross-compilation.
+Componentes adicionais para compilação cruzada.
 
-> Change the version according to your needs.
+> Altere a versão de acordo com suas necessidades.
 
 ### Linux
 
